@@ -2,7 +2,7 @@
   <div id="finder-app">
     <div class="callout">
       <i class="fa fa-exclamation-triangle fa-3x" />
-      <p>The City of Philadelphia is conducting a software update and data conversion process that will interrupt daily permit tracker updates beginning March 13, 2020. The City regrets the inconvenience and anticipates – but cannot guarantee – that updates will resume in 20 or fewer days. Visit L&I's <a href="https://www.phila.gov/2020-03-09-updates-to-li-data-on-city-websites-to-be-temporarily-interrupted/">blog post</a> for more information.</p>
+      <p>The City of Philadelphia is conducting a software update and data conversion process that will interrupt licensed contractor data updates beginning March 13, 2020. The City regrets the inconvenience and anticipates – but cannot guarantee – that updates will resume in 20 or fewer days. Visit L&I's <a href="https://www.phila.gov/2020-03-09-updates-to-li-data-on-city-websites-to-be-temporarily-interrupted/">blog post</a> for more information.</p>
     </div>
     <div class="filter-by">
       <div class="search">
