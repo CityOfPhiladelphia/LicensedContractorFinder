@@ -1,5 +1,9 @@
 <template>
   <div id="finder-app">
+    <div class="callout">
+      <i class="fa fa-exclamation-triangle fa-3x" />
+      <p>The City of Philadelphia is conducting a software update and data conversion process that will interrupt licensed contractor data updates beginning March 13, 2020. The City regrets the inconvenience and anticipates – but cannot guarantee – that updates will resume in 20 or fewer days. Visit L&I's <a href="https://www.phila.gov/2020-03-09-updates-to-li-data-on-city-websites-to-be-temporarily-interrupted/">blog post</a> for more information.</p>
+    </div>
     <div class="filter-by">
       <div class="search">
         <input
@@ -451,6 +455,15 @@ export default {
 
 #finder-app {
    padding-bottom: 70px;
+
+   .callout {
+     margin: 1rem 1rem;
+
+     i {
+       float: left;
+       padding-right: 1rem;
+     }
+   }
   
   .filter-by {
     width: 100%;
@@ -464,7 +477,7 @@ export default {
     width: 100%;
     background-color: white;
     padding: 30px 7.5% 14px 7.5%;
-    box-shadow: 5px 5px 10px lightgrey;
+    box-shadow: 0 4px 2px -2px lightgrey;
 
     .search{
       width: 50%;
