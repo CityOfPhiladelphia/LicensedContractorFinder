@@ -180,7 +180,7 @@ Vue.use(VueAnalytics, {
 
 const serviceURL = "https://data.phila.gov/carto/api/v2/sql?q=";
 const query_base = "SELECT contactname, companyname, icccategory, licensenumber, licensetype FROM trade_licenses WHERE licensestatus = 'ACTIVE'";
-const query_licensetypes = "SELECT DISTINCT licensetype FROM li_trade_licenses";
+const query_licensetypes = "SELECT DISTINCT licensetype FROM trade_licenses";
 
 export default {
   name: "FindALicensedContractor",
